@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Vet Clinic] <a name="about-project"></a>
+# 📖 Vet Clinic <a name="about-project"></a>
 
 A veterinary clinic database is a relational database designed to manage and store information related to the operation of a veterinary clinic. The database can be queried and updated using SQL commands, enabling efficient management and analysis of clinic data.
 
@@ -102,8 +102,8 @@ Clone this repository to your desired folder:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Normalise the tables]**
-- [ ] **[Support for concurrent Transactions]**
+- [ ] **Normalise the tables**
+- [ ] **Support for concurrent Transactions**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
