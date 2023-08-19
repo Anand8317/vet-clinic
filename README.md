@@ -59,13 +59,6 @@ A veterinary clinic database is a relational database designed to manage and sto
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Coming Soon...](<replace-with-your-deployment-URL>)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
@@ -121,9 +114,12 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
+If you like this project, please star it.
 
-If you like this project...
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🙏 Acknowledgments:
+I would like to credit microverse for the guidance.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
