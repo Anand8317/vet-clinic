@@ -118,7 +118,7 @@ If you like this project, please star it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-# 🙏 Acknowledgments:
+## 🙏 Acknowledgments:
 I would like to credit microverse for the guidance.
 
 ## 📝 License <a name="license"></a>
