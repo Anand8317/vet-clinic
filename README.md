@@ -114,11 +114,12 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project, please star it.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+# 🙏 Acknowledgments:
+I would like to credit microverse for the guidance.
 
 ## 📝 License <a name="license"></a>
 
