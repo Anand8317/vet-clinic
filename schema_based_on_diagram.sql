@@ -13,3 +13,9 @@ CREATE TABLE medical_histories(
     weight DECIMAL,
     FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
+
+CREATE TABLE treatments (
+    id INT GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
+    type varchar(50),
+    name varchar(50)
+);
