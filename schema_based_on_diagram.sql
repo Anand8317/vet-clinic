@@ -13,3 +13,11 @@ CREATE TABLE medical_histories(
     weight DECIMAL,
     FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
+
+CREATE TABLE invoices (
+    id serial PRIMARY KEY,
+    total_amount integer,
+	generated_at timestamp,
+	paid_at timestamp,
+    medical_history_id integer REFERENCES medical_histories(id)
+);
