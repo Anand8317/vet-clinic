@@ -5,7 +5,7 @@ CREATE TABLE patients (
 );
 
 CREATE TABLE medical_histories(
-	id INT GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
+    id INT GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
     admitted_at TIMESTAMP,
     patient_id INT,
     status VARCHAR(120),
@@ -17,8 +17,8 @@ CREATE TABLE medical_histories(
 CREATE TABLE invoices (
     id serial PRIMARY KEY,
     total_amount integer,
-	generated_at timestamp,
-	paid_at timestamp,
+    generated_at timestamp,
+    paid_at timestamp,
     medical_history_id integer REFERENCES medical_histories(id)
 );
 
@@ -26,4 +26,10 @@ CREATE TABLE treatments (
     id INT GENERATED ALWAYS AS IDENTITY NOT NULL PRIMARY KEY,
     type varchar(50),
     name varchar(50)
+);
+
+CREATE TABLE medical_histories_treatments (
+    medical_id integer REFERENCES medical_histories(id),
+    treatment_id integer REFERENCES treatments(id),
+    PRIMARY KEY (medical_id, treatment_id)
 );
